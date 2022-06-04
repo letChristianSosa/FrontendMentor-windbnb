@@ -1,0 +1,44 @@
+.navigation {
+  max-width: 1250px;
+  margin: 32px auto 68px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation img {
+  width: 220px;
+  height: auto;
+}
+
+.searchBar p {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city,
+.guests {
+  border-right: 1px solid #f2f2f2;
+}
+
+.guests {
+  color: #bdbdbd;
+}
+
+.search {
+  color: #eb5757;
+}
+
+.searchBar {
+  width: 320px;
+  height: 55px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+}

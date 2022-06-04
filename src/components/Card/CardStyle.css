@@ -1,0 +1,58 @@
+.card {
+  width: 395px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  max-width: 395px;
+  max-height: 269px;
+  border-radius: 24px;
+}
+
+.firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.firstLine div {
+  display: flex;
+  align-items: center;
+}
+
+.superhost {
+  width: 100px;
+  height: 28px;
+  padding: 7px 9px;
+
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(79, 79, 79, 1);
+  margin-right: 15px;
+}
+
+.type {
+  font-size: 14px;
+  color: rgba(130, 130, 130, 1);
+  font-weight: 500;
+}
+
+.rating {
+  align-self: flex-start;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(79, 79, 79, 1);
+}
+
+.title {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 1);
+}
